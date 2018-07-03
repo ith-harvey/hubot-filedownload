@@ -3,6 +3,10 @@ const fs = require('fs')
 const request = require('request')
 const rp = require('request-promise')
 
+/** getAuthToken()
+* @returns {Object} response data
+*/
+
 const getAuthToken = () => {
   const options = {
     method: 'POST',
@@ -19,7 +23,11 @@ const getAuthToken = () => {
   return rp(options)
 }
 
-
+/** downloadFile()
+* @param {Object} fileDLObj - {downloadLink, fileType}
+* @param {Object} data - {authToken, userId}
+* @returns {String} error || success message
+*/
 const downloadFile = (fileDlObj, data) => {
   const {authToken: token, userId: botId } = data
   const options = {
@@ -76,6 +84,5 @@ module.exports = (robot) => {
       listeningForDownload = false
     }
   })
-
 
 }

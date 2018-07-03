@@ -1,6 +1,1 @@
-node_modules
-.DS_Store*
-.hubot_history
-.env
-client_secret.json
-credentials.json
+./node_modules
