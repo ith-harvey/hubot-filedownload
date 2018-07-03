@@ -27,9 +27,6 @@
     "request": "^2.87.0",
     "request-promise": "^4.2.2"
   },
-  "engines": {
-    "node": "7.10.0"
-  },
   "bugs": {
     "url": "https://github.com/ith-harvey/hubot-filedownload/issues"
   },
