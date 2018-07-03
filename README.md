@@ -21,8 +21,3 @@ The file-download bot relies on the above variables to retrieve an authorization
 ### Commands
 
   * `@[bot name] download file` : Instructs the bot to listen for the file upload.
-
-## More information on Hubot:
-
-[hubot]: http://hubot.github.com
-[generator-hubot]: https://github.com/github/generator-hubot

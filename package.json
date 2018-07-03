@@ -1,6 +1,6 @@
 {
   "name": "hubot-filedownload",
-  "version": "1.0.5",
+  "version": "1.1.0",
   "author": "Ian Harvey",
   "description": "A simple file download application that stores files on the hubot as instructed by the user.",
   "repository": {
