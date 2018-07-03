@@ -1,11 +1,7 @@
-# A hubot bot named doge
+# A hubot rocketchat file download bot
 
-![alt text](https://github.com/ith-harvey/hubot-fastmail-cal/blob/master/imgs/dog2.png)
+This bot built on the [Hubot][hubot] framework and provides a download file functionality to the Rocket.Chat Hubot.
 
-
-doge is a chat bot built on the [Hubot][hubot] framework and houses several utility bots, they are as follows:
-
-* The Calendar Meeting Suggestion Bot (`@doge cal suggest`) is a meeting query tool that finds availability in user's schedules and responds with suggested meeting times. It is designed to work with the fast-mail API ([www.fastmail.com](https://www.fastmail.com/)) which provides a busy calendar URL.
 
 ### Configuration for DEV environment
 You can test your hubot by running the following, however some plugins will not
@@ -16,8 +12,8 @@ Environment variables to be set in the root folder:
 * export ROCKETCHAT_ROOM=''
 * export LISTEN_ON_ALL_PUBLIC=true
 * export RESPOND_TO_DM=true
-* export ROCKETCHAT_USER=doge
-* export ROCKETCHAT_PASSWORD=doge
+* export ROCKETCHAT_USER=[name of the bot]
+* export ROCKETCHAT_PASSWORD=[password for the bot]
 * export ROCKETCHAT_URL= <URL HERE>
 * export NODE_VERSION=default
 
